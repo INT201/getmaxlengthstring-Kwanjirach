@@ -23,10 +23,3 @@ else{
 }
 }
 module.exports = getMaxLengthString
-console.log(getMaxLengthString(['hello', 'hi', 'hey']))
-console.log(getMaxLengthString(['hello', 'hi', 'hey', 'Good Evening', 'Good Morning']))
-console.log(getMaxLengthString(['hi']))
-console.log(getMaxLengthString(null))
-console.log(getMaxLengthString(undefined))
-//  const arrayOfString = ['hello', 'hi', 'hey']
-//  console.log(arrayOfString[0].length)
